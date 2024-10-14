@@ -1,17 +1,17 @@
 # Objx
 [![Build Status](https://travis-ci.org/stretchr/objx.svg?branch=master)](https://travis-ci.org/stretchr/objx)
-[![Go Report Card](https://goreportcard.com/badge/github.com/stretchr/objx)](https://goreportcard.com/report/github.com/stretchr/objx)
+[![Go Report Card](https://goreportcard.com/badge/github.com/01ne/objx)](https://goreportcard.com/report/github.com/01ne/objx)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1d64bc6c8474c2074f2b/maintainability)](https://codeclimate.com/github/stretchr/objx/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1d64bc6c8474c2074f2b/test_coverage)](https://codeclimate.com/github/stretchr/objx/test_coverage)
-[![Sourcegraph](https://sourcegraph.com/github.com/stretchr/objx/-/badge.svg)](https://sourcegraph.com/github.com/stretchr/objx)
-[![GoDoc](https://pkg.go.dev/badge/github.com/stretchr/objx?utm_source=godoc)](https://pkg.go.dev/github.com/stretchr/objx)
+[![Sourcegraph](https://sourcegraph.com/github.com/01ne/objx/-/badge.svg)](https://sourcegraph.com/github.com/01ne/objx)
+[![GoDoc](https://pkg.go.dev/badge/github.com/01ne/objx?utm_source=godoc)](https://pkg.go.dev/github.com/01ne/objx)
 
 Objx - Go package for dealing with maps, slices, JSON and other data.
 
 Get started:
 
 - Install Objx with [one line of code](#installation), or [update it with another](#staying-up-to-date)
-- Check out the API Documentation http://pkg.go.dev/github.com/stretchr/objx
+- Check out the API Documentation http://pkg.go.dev/github.com/01ne/objx
 
 ## Overview
 Objx provides the `objx.Map` type, which is a `map[string]interface{}` that exposes a powerful `Get` method (among others) that allows you to easily and quickly get access to data within the map, without having to worry too much about type assertions, missing data, default values etc.
@@ -66,12 +66,12 @@ Since `objx.Map` is a `map[string]interface{}` you can treat it as such.  For ex
 ## Installation
 To install Objx, use go get:
 
-    go get github.com/stretchr/objx
+    go get github.com/01ne/objx
 
 ### Staying up to date
 To update Objx to the latest version, run:
 
-    go get -u github.com/stretchr/objx
+    go get -u github.com/01ne/objx
 
 ### Supported go versions
 We currently support the three recent major Go versions.

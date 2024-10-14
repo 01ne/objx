@@ -1,13 +1,11 @@
-module github.com/stretchr/objx
+module github.com/01ne/objx
 
-go 1.20
+go 1.18
 
-require github.com/stretchr/testify v1.9.0
+require github.com/01ne/testify v1.0.2
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
+	github.com/01ne/go-spew v1.0.2
+	github.com/01ne/go-difflib v1.0.2
+	github.com/01ne/yaml v1.0.2
 )
-
-exclude github.com/stretchr/testify v1.8.0
